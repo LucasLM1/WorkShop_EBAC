@@ -5,13 +5,13 @@
 body{
     font: 20px Arial, sans-serif;
 }
-.navbar {
+nav {
     background-color: #00BFFF;
     height: 70px;
 }
 
-.fakeName{
-    margin-top: 15px;
+.fakeName:hover{
+    color: #000;
 }
 
 .textBlack{
@@ -19,7 +19,19 @@ body{
 }
 
 .sobreMimBG{
-    background-image: linear-gradient(#00b7ff, #fff);
+    background-image: linear-gradient(#00BFFF, #fff);
+}
+
+.habilidadeBG{
+    background-image: linear-gradient(#fff, #00BFFF);
+}
+
+.formBG{
+    background-image: linear-gradient(#00BFFF, #fff);
+}
+
+footer{
+    background-image: linear-gradient(#fff, #00BFFF);
 }
 
 img{

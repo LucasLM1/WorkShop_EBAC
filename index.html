@@ -19,40 +19,40 @@
 
 <body>
     <!-- Navbar/Menu -->
-    <nav class="navbar fixed-top navbar-expand-lg marginMenu mb-5">
-        <p class="p-4 fakeName textBlack">
-            Lucas Souza | Desenvolvedor Fullstack Java Jr
-        </p>
-        <div class="collapse navbar-collapse d-flex justify-content-end p-5">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link textBlack" href="#SobreMim">Sobre mim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link textBlack" href="#habilidades">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link textBlack" href="#projetos">Projetos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link textBlack" href="#form">Avaliações</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link textBlack" href="#contato">Contato</a>
-                </li>
-            </ul>
-            <div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand textBlack fakeName" href="https://www.linkedin.com/in/lucaslmsc/"
+                target="_blank">Lucas Souza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link textBlack" href="#SobreMim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textBlack" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textBlack" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textBlack" href="#form">Avaliações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textBlack" href="#contato">Contato</a>
+                    </li>
+            </div>
+        </div>
     </nav>
     <!-- /Navbar/Menu -->
 
 
-    <!--Carousel-->
-
-    <!--/Carousel-->
-
     <!--Sobre-->
     <div class="col-md-12 container-fluid sobreMimBG">
-        <div class="row mt-5" id="SobreMim">
+        <div class="row" id="SobreMim">
 
             <div class="col-md-4">
                 <img class="p-5" src="https://avatars.githubusercontent.com/u/86297161?v=4" class="soyjo"
@@ -74,47 +74,165 @@
                 </h5>
             </div>
         </div>
-        <!--/Sobre-->
+    </div>
+    <!--/Sobre-->
 
-        <hr>
+    <hr>
 
-        <!--Habilidaes-->
-        <div class="col-md-12 container-fluid row" id="habilidades">
-            <h1 class="d-flex justify-content-center">Habilidades</h1>
+    <!--Carousel-->
 
-            <div class="col-md-6 row">
-                <div class="d-flex justify-content-center mb-3">
-                    <h4>Linguagens</h4>
-                </div>
-                
-                <div class="d-flex justify-content-center">
-                    <p>HTML</p>
-                    <div class="progress" style="width: 110px;"> <!--isso que define o tamanho da barra de progresso-->
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
-                    </div>
+    <!--/Carousel-->
+
+    <hr>
+
+    <!--Habilidaes-->
+    <!--linguagens-->
+    <div class="col-md-12 container-fluid row habilidadeBG" id="habilidades">
+        <h1 class="d-flex justify-content-center mb-5">Habilidades</h1>
+
+        <div class="col-md-6 row">
+            <div class="d-flex justify-content-center mb-3">
+                <h3>Linguagens</h3>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>HTML</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
                 </div>
             </div>
 
-            <div class="col-md-6 row">
-                <div class="d-flex justify-content-center mb-3">
-                    <h4>Frameworks</h4>
+            <div class="d-flex justify-content-center">
+                <p>CSS</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
                 </div>
+            </div>
 
-                <div class="d-flex justify-content-center">
-                    <p>Angular</p>
-                    <div class="progress" style="width: 110px;"> <!--isso que define o tamanho da barra de progresso-->
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
-                    </div>
+            <div class="d-flex justify-content-center">
+                <p>Java</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>JavaScript</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45%</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>TypeScript</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
                 </div>
             </div>
         </div>
-        <!--/Habilidaes-->
+        <!--/linguagens-->
+
+        <!--Frameworks e metodologia-->
+        <div class="col-md-6 row">
+            <div class="d-flex justify-content-center mb-3">
+                <h3>Frameworks, IDE's e metodologia</h3>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>Angular</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p class="">SpringBoot</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>SCRUM</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>Eclipse</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p>VSCode</p>
+                <div class="progress" style="width: 110px;">
+                    <!--isso que define o tamanho da barra de progresso-->
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                </div>
+            </div>
+
+        </div>
+        <!--Frameworks e metodologia-->
+
+        <!--Banco de dados-->
+        <h3 class="d-flex justify-content-center mb-3">Banco de dados</h3>
+        <div class="d-flex justify-content-center">
+            <p>MySQL</p>
+            <div class="progress mb-5" style="width: 110px;">
+                <!--isso que define o tamanho da barra de progresso-->
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+            </div>
+        </div>
+        <!--/Banco de dados-->
+    </div>
+    <!--/Habilidaes-->
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-            crossorigin="anonymous"></script>
-        <script type="text/javascript" src="script.js"></script> <!-- Meu JavaScript -->
+    <!--Avaliações/Form-->
+
+    <!--/Avaliações/Form-->
+
+
+    <footer>
+        <h1 class="d-flex justify-content-center" id="contato">Contato</h1>
+
+        
+
+
+        <div class="col-md-12 row">
+            <p class="text-center">
+                <b>Desenvolvido por: Lucas Souza</b>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script> <!-- Meu JavaScript -->
 </body>
 
 </html>
